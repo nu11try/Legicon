@@ -1,0 +1,81 @@
+header {
+	width: 100%;
+	height: 180px;
+	background: white;
+	box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.3);
+	font-family: 'Roboto', sans-serif;
+
+	hr {
+		width: 98%;
+		height: 1px;
+		background: #000000;
+		opacity: 0.15;
+		margin: 0 auto;
+	}
+
+	.box {
+
+		.header-top {
+			width: 100%;
+			height: 130px;
+
+			a {
+				.logo {
+					width: 168px;
+					height: 58px;
+					background: url("../images/logo.png");
+				}
+			}
+
+			.tel {
+
+				.tel-icon {
+
+				}
+
+				.tel-text {
+					font-weight: 500;
+					line-height: 24px;
+					font-size: 16px;
+					color: #293332;
+				}
+			}
+
+			.btn {
+				width: 160px;
+				height: 36px;
+				background: #FFFFFF;
+				border: 2px solid $color-red;
+				text-align: center;
+				line-height: 36px;
+				cursor: pointer;
+				color: #293332;
+			}
+
+			.btn:hover {
+				color: white;
+				background: $color-red;
+			}
+		}
+
+		.header-bottom {
+			height: 50px;
+			font-weight: 600;
+
+			nav {
+				ul {
+					display: flex;
+					justify-content: space-between;
+
+					li {
+
+						a {
+							line-height: 47px;
+							outline: solid 1px red;
+						}
+					}
+				}
+			}
+		}
+	}
+}
